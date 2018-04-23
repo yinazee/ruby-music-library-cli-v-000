@@ -53,8 +53,6 @@ def self.all
   end
 
   def self.new_from_filename(filename)
-
-
     parts = filename.split(" - ")
     artist_name, song_name, genre_name = parts.first, parts[1], parts[2].gsub(".mp3","")
 
