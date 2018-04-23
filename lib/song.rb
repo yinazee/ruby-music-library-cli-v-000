@@ -66,9 +66,4 @@ def self.all
     new_from_filename(filename).tap{|s| s.save}
   end
 
-
-  def self.create(name)
-    new(name).tap { |s| s.save}
-  end
-
 end
